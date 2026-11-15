@@ -11,8 +11,6 @@ Each checklist is a plain Markdown file, so it works with screen readers, render
 | [Power BI accessibility checklist](checklists/power-bi-accessibility-checklist.md) | Reviewing a whole report against the four WCAG principles: perceivable, operable, understandable and robust |
 | [Power BI alt text creation checklist](checklists/power-bi-alt-text-checklist.md) | Writing static and dynamic alt text that explains the insight in each visual |
 
-More checklists, including the **DEPTH** model for report design, are coming soon.
-
 ## How to use them
 
 - **Review a report:** open a checklist on GitHub and work through it, or copy it into an issue or pull request so you can tick items as you go.
@@ -26,11 +24,7 @@ More checklists, including the **DEPTH** model for report design, are coming soo
 - [Power BI Alt Text UDF Library](https://github.com/Juls-BI/powerbi-alttext-udfs): DAX user-defined functions for dynamic alt text
 - [Power BI Luminance & Colour Contrast Checker](https://github.com/Juls-BI/powerbi-luminance-contrast-checker): WCAG contrast ratios in pure DAX
 
-## Stay connected
-
-- Website: [data-tides.com](https://data-tides.com/)
-- YouTube: [Data-Tides](https://www.youtube.com/@Data-Tides)
-- LinkedIn: [Juliana Smith](https://www.linkedin.com/in/juliana-smith-citp/)
+## Feedback
 
 Suggestions and corrections are welcome. Please [open an issue](https://github.com/Juls-BI/powerbi-design-checklists/issues).
 
