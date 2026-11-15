@@ -7,7 +7,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/Juls-BI/powerbi-design-checklists)](https://github.com/Juls-BI/powerbi-design-checklists/commits/main)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/Juls-BI/powerbi-design-checklists/issues)
 
-Practical, tickable checklists for designing accessible Power BI reports, by [Juliana Smith](https://www.linkedin.com/in/juliana-smith-citp/) at [Data Tides](https://data-tides.com/).
+Practical, tickable checklists for designing clear, honest and accessible Power BI reports, by [Juliana Smith](https://www.linkedin.com/in/juliana-smith-citp/) at [Data Tides](https://data-tides.com/).
 
 Each checklist is a plain Markdown file, so it works with screen readers, renders as tickable checkboxes on GitHub, and is easy to copy into your own tools.
 
@@ -15,6 +15,8 @@ Each checklist is a plain Markdown file, so it works with screen readers, render
 
 | Checklist | What it's for |
 |---|---|
+| [Power BI chart selection checklist](checklists/power-bi-chart-selection-checklist.md) | Choosing a visual that answers the question and suits the data |
+| [Power BI chart honesty checklist](checklists/power-bi-chart-honesty-checklist.md) | Making sure a visual gives an honest impression of the data: scales, time periods, aggregation and wording |
 | [Power BI accessibility checklist](checklists/power-bi-accessibility-checklist.md) | Reviewing a whole report against the four WCAG principles: perceivable, operable, understandable and robust |
 | [Power BI alt text creation checklist](checklists/power-bi-alt-text-checklist.md) | Writing static and dynamic alt text that explains the insight in each visual |
 
