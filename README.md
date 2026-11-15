@@ -1,5 +1,12 @@
 # Power BI design checklists
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
+[![WCAG 2.2](https://img.shields.io/badge/WCAG-2.2-220e4b.svg)](https://www.w3.org/WAI/standards-guidelines/wcag/)
+[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black)](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-overview)
+[![Format: Markdown](https://img.shields.io/badge/Format-Markdown-000000?logo=markdown&logoColor=white)](checklists/)
+[![Last commit](https://img.shields.io/github/last-commit/Juls-BI/powerbi-design-checklists)](https://github.com/Juls-BI/powerbi-design-checklists/commits/main)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/Juls-BI/powerbi-design-checklists/issues)
+
 Practical, tickable checklists for designing accessible Power BI reports, by [Juliana Smith](https://www.linkedin.com/in/juliana-smith-citp/) at [Data Tides](https://data-tides.com/).
 
 Each checklist is a plain Markdown file, so it works with screen readers, renders as tickable checkboxes on GitHub, and is easy to copy into your own tools.
