@@ -11,10 +11,25 @@ Practical, tickable checklists for designing clear, honest and accessible Power 
 
 Each checklist is a plain Markdown file, so it works with screen readers, renders as tickable checkboxes on GitHub, and is easy to copy into your own tools.
 
+## Start here: the DEPTH checklist
+
+AI can build a Power BI report in minutes, but if you publish it, you own the design. The **DEPTH checklist** reviews a report across five layers, like an iceberg. Dress and Elements sit above the water, where people notice them first. Below it are the decisions that make a report work for real people.
+
+| Layer | Covers | Question to ask |
+|---|---|---|
+| **D: Dress** | Colour and branding | Does it look on-brand and consistent? |
+| **E: Elements** | Visuals and layout | Does every visual earn its place? |
+| **P: Patterns** | Contrast, typography and design systems | Can everyone read and tell it apart? |
+| **T: Trust** | Hierarchy, chart honesty, assistive technology and testing | Does it give an honest, clear message? |
+| **H: Humans** | Users, accessibility, interaction and navigation | Does it work for the people who use it? |
+
+[Open the Power BI DEPTH checklist](checklists/power-bi-depth-checklist.md). It also includes checks for dashboards built with Claude, and a sign-off section so a person, not a tool, confirms the report is ready to publish.
+
 ## Checklists
 
 | Checklist | What it's for |
 |---|---|
+| [Power BI DEPTH checklist](checklists/power-bi-depth-checklist.md) | A full design review across five layers: Dress, Elements, Patterns, Trust and Humans |
 | [Power BI chart selection checklist](checklists/power-bi-chart-selection-checklist.md) | Choosing a visual that answers the question and suits the data |
 | [Power BI chart honesty checklist](checklists/power-bi-chart-honesty-checklist.md) | Making sure a visual gives an honest impression of the data: scales, time periods, aggregation and wording |
 | [Power BI accessibility checklist](checklists/power-bi-accessibility-checklist.md) | Reviewing a whole report against the four WCAG principles: perceivable, operable, understandable and robust |
