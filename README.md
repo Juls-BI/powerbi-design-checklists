@@ -7,9 +7,9 @@
 [![Last commit](https://img.shields.io/github/last-commit/Juls-BI/powerbi-design-checklists)](https://github.com/Juls-BI/powerbi-design-checklists/commits/main)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/Juls-BI/powerbi-design-checklists/issues)
 
-Practical, tickable checklists for designing clear, honest and accessible Power BI reports, by [Juliana Smith](https://www.linkedin.com/in/juliana-smith-citp/) at [Data Tides](https://data-tides.com/).
+Practical, tickable checklists for designing clear, honest and accessible Power BI reports, plus an editable brief template for briefing an AI tool, by [Juliana Smith](https://www.linkedin.com/in/juliana-smith-citp/) at [Data Tides](https://data-tides.com/).
 
-Each checklist is a plain Markdown file, so it works with screen readers, renders as tickable checkboxes on GitHub, and is easy to copy into your own tools.
+Each file is plain Markdown, so it works with screen readers, renders as tickable checkboxes on GitHub, and is easy to copy into your own tools.
 
 ## Start here: the DEPTH checklist
 
@@ -25,6 +25,8 @@ AI can build a Power BI report in minutes, but if you publish it, you own the de
 
 [Open the Power BI DEPTH checklist](checklists/power-bi-depth-checklist.md). It also includes checks for dashboards built with Claude, and a sign-off section so a person, not a tool, confirms the report is ready to publish.
 
+Use the checklist to review a report. Use the [AI design brief template](templates/power-bi-ai-design-brief-template.md) to ask for a better first draft, with the same five layers written as prompt lines.
+
 ## Checklists
 
 | Checklist | What it's for |
@@ -35,15 +37,33 @@ AI can build a Power BI report in minutes, but if you publish it, you own the de
 | [Power BI accessibility checklist](checklists/power-bi-accessibility-checklist.md) | Reviewing a whole report against the four WCAG principles: perceivable, operable, understandable and robust |
 | [Power BI alt text creation checklist](checklists/power-bi-alt-text-checklist.md) | Writing static and dynamic alt text that explains the insight in each visual |
 
+## Templates
+
+| Template | What it's for |
+|---|---|
+| [Power BI AI design brief template](templates/power-bi-ai-design-brief-template.md) | An editable brief to paste into Copilot, ChatGPT, Claude or any AI tool. It starts with your requirements and canvas size, then covers each DEPTH layer, and ends with a check-before-hand-over list |
+
+The template covers:
+
+- **Requirements:** who uses the report, the decision they make, where they use it, access needs and the business questions the page must answer.
+- **Canvas and scale:** the canvas size, and a formula that scales the minimum font size, padding, gaps and the size of buttons, slicers and icons to it. The base is 12 pt at 1280 x 720, scaled by canvas height.
+- **DEPTH prompt lines:** what to ask for under Dress, Elements, Patterns, Trust and Humans, including a limit on the number of elements per page.
+- **Accessibility:** a place to paste the output of the [Accessibility Prompt Builder](https://pbiaudits.com/accessibility-prompt-builder).
+- **Check before you hand over:** a tickable list, so the AI checks its own work and then you check it too.
+
+A prompt improves the starting point. It does not replace testing, so keep the keyboard, screen reader and zoom checks, and review the result against the [DEPTH checklist](checklists/power-bi-depth-checklist.md).
+
 ## How to use them
 
 - **Review a report:** open a checklist on GitHub and work through it, or copy it into an issue or pull request so you can tick items as you go.
 - **Add it to your team's process:** copy the Markdown into your wiki, Azure DevOps, Notion or Obsidian. Checkboxes work in all of them.
-- **Give it to an AI tool:** paste a checklist into your prompt or save it as reusable instructions, then review what the AI produces against it. AI can help you check, but a person still signs off.
+- **Brief an AI tool:** copy the [design brief template](templates/power-bi-ai-design-brief-template.md), replace everything in square brackets with your own requirements, delete the lines you do not need, then paste it into your AI tool.
+- **Give a checklist to an AI tool:** paste a checklist into your prompt or save it as reusable instructions, then review what the AI produces against it. AI can help you check, but a person still signs off.
 
 ## Related tools
 
 - [PBIX A11y](https://pbiaudits.com/): a free, browser-based accessibility checker for .pbix files
+- [Accessibility Prompt Builder](https://pbiaudits.com/accessibility-prompt-builder): answer a few questions to get an accessibility prompt for Copilot, ChatGPT, Claude or any other AI tool
 - [pbir-a11y](https://github.com/Juls-BI/pbir-a11y): accessibility checks for PBIP projects, pipelines and AI agents
 - [Power BI Alt Text UDF Library](https://github.com/Juls-BI/powerbi-alttext-udfs): DAX user-defined functions for dynamic alt text
 - [Power BI Luminance & Colour Contrast Checker](https://github.com/Juls-BI/powerbi-luminance-contrast-checker): WCAG contrast ratios in pure DAX
@@ -54,4 +74,4 @@ Suggestions and corrections are welcome. Please [open an issue](https://github.c
 
 ## License
 
-These checklists are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You can share and adapt them, including for commercial use, as long as you credit **Juliana Smith, Data Tides** and link back to this repository.
+These checklists and templates are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You can share and adapt them, including for commercial use, as long as you credit **Juliana Smith, Data Tides** and link back to this repository.
